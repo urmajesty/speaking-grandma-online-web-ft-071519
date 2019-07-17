@@ -1,5 +1,9 @@
 def speak_to_grandma
-  
+  if speak_to_grandma == speak_to_grand
+    puts "HUH?! SPEAK UP SONNY"
+  else if speak_to_grandma=speak_to_grandma.upcase
+    puts "NO, NOT SINCE 1938!"
+  else puts 
 # Write a speak_to_grandma method.
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
